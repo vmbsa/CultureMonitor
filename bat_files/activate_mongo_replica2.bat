@@ -1,0 +1,1 @@
+mongod --config \mongo_replica\db2\db2.conf

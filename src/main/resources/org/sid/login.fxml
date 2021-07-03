@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.sid.graphicControllers.LoginController">
+   <Label layoutX="241.0" layoutY="93.0" text="Monitorização de Culturas - Admin Server" textFill="#022f08">
+      <font>
+         <Font name="Arial Black" size="14.0" />
+      </font>
+   </Label>
+   <TextField fx:id="usernameTextField" layoutX="267.0" layoutY="244.0" prefHeight="26.0" prefWidth="266.0" promptText="java username" />
+   <PasswordField fx:id="passwordField" layoutX="266.0" layoutY="304.0" prefHeight="26.0" prefWidth="266.0" promptText="java password" />
+   <Button layoutX="326.0" layoutY="453.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="26.0" prefWidth="148.0" text="Login" />
+   <Label fx:id="errorLbl" alignment="CENTER" layoutX="100.0" layoutY="389.0" prefHeight="18.0" prefWidth="574.0" textFill="#c91313" visible="false" />
+</AnchorPane>

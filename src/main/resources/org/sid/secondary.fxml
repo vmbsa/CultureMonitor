@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.sid.graphicControllers.SecondaryController">
+    <Label layoutX="241.0" layoutY="93.0" text="Monitorização de Culturas - Admin Server" textFill="#022f08">
+        <font>
+            <Font name="Arial Black" size="14.0" />
+        </font>
+    </Label>
+   <Button fx:id="startMigrationBtn" layoutX="320.0" layoutY="482.0" mnemonicParsing="false" onMouseClicked="#startMigration" prefHeight="52.0" prefWidth="160.0" text="Start MQTT Transport" />
+   <Label fx:id="notificationLbl" layoutX="341.0" layoutY="178.0" text="Iniciando_servidores ..." visible="false" />
+   <Label layoutX="112.0" layoutY="196.0" text="Periodicidade de migração" />
+   <TextField fx:id="periodicity" layoutX="296.0" layoutY="191.0" prefHeight="26.0" prefWidth="342.0" />
+   <Label fx:id="errorLbl" alignment="CENTER" layoutX="109.0" layoutY="439.0" prefHeight="18.0" prefWidth="574.0" textFill="#c91313" />
+</AnchorPane>

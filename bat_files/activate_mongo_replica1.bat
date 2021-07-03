@@ -1,0 +1,1 @@
+mongod --config \mongo_replica\db1\db1.conf
