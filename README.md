@@ -1,2 +1,3 @@
 # CultureMonitor
 
+In a group of work and within the Distributed Information Systems course unit, we had to develop a web page and an Android app for reserchers so that they could monitor their culture's parameters (light, humidity and temperature). The data was collected from sensors and then transfered to MongoDB collections. After that it was sent to a SQL database where it was stored. The researchers would then log into the web page and set the parameters they wanted for the cultures they wanted, and then could open the Android app to see the data from the sensors in real time. In case the measurements fall outside the established range, the reseaarcher would be alerted by the application.
